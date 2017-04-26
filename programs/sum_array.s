@@ -48,7 +48,7 @@ main:
     sub r4, #1
     b halt 
 
-end_program:
+halt:
     b halt
     
 
@@ -82,4 +82,3 @@ end:
     mov pc, lr
 
 .endfunc
-

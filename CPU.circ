@@ -853,8 +853,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="10" pin="330,2130" width="10" x="105" y="175"/>
       <circ-port height="10" pin="480,2130" width="10" x="115" y="175"/>
       <circ-port height="10" pin="630,2130" width="10" x="125" y="175"/>
-      <circ-port height="10" pin="790,2130" width="10" x="145" y="175"/>
-      <circ-port height="10" pin="790,2020" width="10" x="135" y="175"/>
+      <circ-port height="10" pin="790,2130" width="10" x="135" y="175"/>
+      <circ-port height="10" pin="790,2020" width="10" x="145" y="175"/>
       <circ-anchor facing="east" height="6" width="6" x="187" y="67"/>
     </appear>
     <wire from="(500,1490)" to="(580,1490)"/>
@@ -1406,7 +1406,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="32"/>
-      <a name="label" val="R13/SP"/>
+      <a name="label" val="R14/LR"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(320,2130)" name="Tunnel">
@@ -1524,7 +1524,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="32"/>
-      <a name="label" val="R14/LR"/>
+      <a name="label" val="R13/SP"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="1" loc="(610,1260)" name="AND Gate">
@@ -1734,7 +1734,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="4" loc="(480,200)" name="ROM">
       <a name="dataWidth" val="32"/>
       <a name="contents">addr/data: 8 32
-e3a00002 e3a01003 e3a0d040 e24dd004 e3a0e080 e58de000 eb000003 e59de000
+e3a00002 e3a01003 e3a0d040 e24dd004 e3a0e048 e58de000 eb000003 e59de000
 e28dd004 e3a03001 e1a0f00e e0800001 e1a0f00e
 </a>
     </comp>

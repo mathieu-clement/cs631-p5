@@ -13,4 +13,5 @@ Depending on its value, the following files / programs will be executed:
 You can find this key in the main circuit.
 
 So first you want to reset the simulation (Simulation -> Reset, or Cmd-R).
-Then run the clock ticks until the program green let turns red
+Set the Instruction Memory to the correct value, 
+Then run the clock ticks until the program green LED turns red, indicating it has finished.

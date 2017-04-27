@@ -79,6 +79,6 @@ loop:
 
 end:
     mov r0, r2
-    mov pc, lr
+    bx lr
 
 .endfunc

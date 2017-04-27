@@ -22,11 +22,11 @@ fib_iter:
 
     # Handle special case of n == 0
     cmp r0, #0
-    moveq pc, lr
+    bxeq lr
 
     # Handle special case of n == 1
     cmp r0, #1
-    moveq pc, lr
+    bxeq lr
 
     # Create an array of n + 1 elements on the stack
     add r1,  r0, #1     /* r1 = n + 1 */
@@ -104,4 +104,4 @@ end:
     add r1, r1
     add r1, r1
     add sp, r1
-    mov pc, lr
+    bx lr
